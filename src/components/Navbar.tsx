@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
+  return <div className="absolute top-0 left-0 bg-transparent">Navbar</div>;
+};

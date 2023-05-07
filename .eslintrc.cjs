@@ -22,6 +22,7 @@ module.exports = {
         objectLiteralTypeAssertions: 'allow',
       },
     ],
+
   },
   settings: {
     react: {
