@@ -8,6 +8,9 @@ export default {
         'darkGray': 'hsl(0, 0%, 63%)',
         'veryDarkGray': 'hsl(0, 0%, 27%)',
       },
+      fontFamily: {
+        'leagueSpartan': ['Spartan', 'sans-serif'],
+      }
     },
   },
   plugins: [],
