@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mobile-grid {
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 50vh 35vh 40vh 35vh;
+}
+
+.desktop-grid {
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}

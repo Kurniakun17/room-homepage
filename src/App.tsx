@@ -6,6 +6,7 @@ import { DarkHero } from './components/DarkHero';
 import { About } from './components/About';
 import { LightHero } from './components/LightHero';
 import { Navbar } from './components/Navbar';
+import { CTA } from './components/CTA';
 function App() {
   const [sliderIndex, setSliderIndex] = useState(0);
 
@@ -26,23 +27,13 @@ function App() {
   };
 
   return (
-    <div className="font-leagueSpartan min-h-[100vh]">
+    <div className="font-Spartan w-full grid mobile-grid md:grid-cols-10 md:grid-rows-6 md:h-screen">
       <Navbar></Navbar>
-      <Hero
-        imageIndex={sliderIndex + 1}
-      ></Hero>
-      <div className="flex flex-col justify-center items-center px-8 gap-3 h-[60vh]">
-        <h1 className="self-start font-bold text-[34px] tracking-[-0.1em] leading-10">
-          {data[sliderIndex].title}
-        </h1>
-        <p className="font-semibold text-[10px] text-darkGray leading-5">
-          {data[sliderIndex].content}
-        </p>
-        <button className="self-start flex items-center gap-4 font-semibold text-[10px] tracking-[0.75rem] mt-5">
-          SHOP NOW
-          <img src="./images/icon-arrow.svg" alt="" />
-        </button>
-      </div>
+      <Hero imageIndex={sliderIndex + 1}></Hero>
+      <CTA
+        title={data[sliderIndex].title}
+        content={data[sliderIndex].content}
+      />
       <NavigationButtons
         onNavigationHandler={onNavigationHandler}
       ></NavigationButtons>

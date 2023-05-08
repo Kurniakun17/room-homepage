@@ -2,14 +2,14 @@ import React from 'react';
 
 export const Hero = ({ imageIndex }: { imageIndex: number }) => {
   return (
-    <div>
+    <div className="md:col-span-6 md:row-span-4">
       <picture>
         <source
           srcSet={`./images/desktop-image-hero-${imageIndex}.jpg`}
-          media="(min-width: 1440px)"
+          media="(min-width: 768px)"
         ></source>
         <img
-          className="w-full object-cover object-bottom h-[60vh]"
+          className="w-full h-full object-cover"
           src={`./images/mobile-image-hero-${imageIndex}.jpg`}
           alt=""
         />

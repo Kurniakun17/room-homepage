@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-8 gap-5 h-[40vh]">
-      <h2 className="text-xs self-start font-bold tracking-[0.2rem] ">
+    <div className="flex flex-col justify-center items-center px-8 md:px-12 gap-5 md:col-start-4 md:col-end-8 md:row-start-5 md:row-end-7">
+      <h2 className="text-xs self-start font-bold tracking-[0.3rem] ">
         ABOUT OUR FURNITURE
       </h2>
       <p className="font-semibold text-[10px] text-darkGray leading-5">
@@ -16,4 +16,4 @@ export const About = () => {
       </p>
     </div>
   );
-}
+};

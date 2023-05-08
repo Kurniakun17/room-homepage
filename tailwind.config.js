@@ -5,15 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'darkGray': 'hsl(0, 0%, 63%)',
-        'veryDarkGray': 'hsl(0, 0%, 27%)',
+        darkGray: 'hsl(0, 0%, 63%)',
+        veryDarkGray: 'hsl(0, 0%, 27%)',
       },
       fontFamily: {
-        'leagueSpartan': ['Spartan', 'sans-serif'],
+        Spartan: ['Spartan', 'sans-serif'],
       },
       screens: {
-        'desktop': '1440px'
-      }
+        desktop: '1440px',
+      },
     },
   },
   plugins: [],
