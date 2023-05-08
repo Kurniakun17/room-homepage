@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className="font-Spartan w-full grid mobile-grid md:grid-cols-10 md:grid-rows-6 md:h-screen">
+    <div className="font-Spartan w-full grid mobile-grid md:grid-cols-10 md:grid-rows-6 md:h-screen box-border">
       <Navbar></Navbar>
       <Hero imageIndex={sliderIndex + 1}></Hero>
       <CTA

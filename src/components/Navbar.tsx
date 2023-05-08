@@ -17,7 +17,7 @@ export const Navbar = () => {
         <button className="md:hidden" onClick={onOpenHandler}>
           <img src="./images/icon-hamburger.svg" alt="" />
         </button>
-        <img src="./images/logo.svg" alt="" />
+        <img className='py-2' src="./images/logo.svg" alt="" />
         <div className="hidden md:flex gap-6 text-white text-sm mt-1 py-1">
           <a className="hover:border-b-2 border-white" href="">
             home
