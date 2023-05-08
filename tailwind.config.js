@@ -10,6 +10,9 @@ export default {
       },
       fontFamily: {
         'leagueSpartan': ['Spartan', 'sans-serif'],
+      },
+      screens: {
+        'desktop': '1440px'
       }
     },
   },
